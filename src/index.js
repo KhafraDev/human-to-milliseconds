@@ -20,11 +20,11 @@ function analyse (time) {
 
 module.exports = (time) => {
   if(typeof time !== 'string') {
-      return new Error('the first argument must be a string');
+      return null;
   }
 
   if(!whole.test(time)) {
-      return new Error('invalid time');
+      return null;
   }
 
   return time.match(pieces).reduce((sum, currentVal) => sum + analyse(currentVal), 0);
