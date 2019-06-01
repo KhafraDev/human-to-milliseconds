@@ -1,6 +1,6 @@
 {
   "name": "human-to-milliseconds",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Human Interval to Milliseconds",
   "main": "./src/index.js",
   "repository": {
@@ -37,10 +37,8 @@
   "pre-commit": [
     "lint"
   ],
-  "dependencies": {
-    "promisify-es6": "^1.0.3"
-  },
   "contributors": [
-    "Henrique Dias <hacdias@gmail.com>"
+    "Henrique Dias <hacdias@gmail.com>",
+    "KhafraDev <me@khafra.club>
   ]
 }
