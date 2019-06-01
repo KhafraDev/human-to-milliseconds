@@ -1,8 +1,8 @@
 'use strict'
 
-const whole = /^((\d+(\.\d+)*)(ns|ms|us|µs|m|s|h))+$/
-const pieces = /((\d+(\.\d+)*)(ns|ms|us|µs|m|s|h))/g
-const measure = /(ns|ms|us|µs|m|s|h)/g
+const whole = /^((\d+(\.\d+)*)(ms|m|s|h))+$/
+const pieces = /((\d+(\.\d+)*)(ms|m|s|h))/g
+const measure = /(ms|m|s|h)/g
 
 const multipliers = {
   ms: 1,
